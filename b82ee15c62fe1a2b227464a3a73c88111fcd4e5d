@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1af94dfe_fec9fdad",
+        "filename": "system.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-05-07T15:25:59Z",
+      "side": 1,
+      "message": "No need for the \"\" if they are in the system.prop. That\u0027s just a hack needed with PROPERTY_OVERRIDES to keep it from failing.",
+      "revId": "b82ee15c62fe1a2b227464a3a73c88111fcd4e5d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
