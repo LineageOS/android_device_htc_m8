@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1af94dfe_5e4bd1b0",
+        "filename": "system.prop",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-05-08T04:51:30Z",
+      "side": 1,
+      "message": "qc_nlp and izat properties should be under the GPS section, otherwise the rest of this section is graphics related properties",
+      "revId": "8958af57eafa5e5e22b0a40725273e187d855f60",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1af94dfe_bec65514",
+        "filename": "system.prop",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-05-08T04:51:30Z",
+      "side": 1,
+      "message": "thermal monitor can probably be moved to a generic QCOM section",
+      "revId": "8958af57eafa5e5e22b0a40725273e187d855f60",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
