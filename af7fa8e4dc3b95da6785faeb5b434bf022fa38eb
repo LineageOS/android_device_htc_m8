@@ -16,6 +16,24 @@
       "revId": "af7fa8e4dc3b95da6785faeb5b434bf022fa38eb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1af94dfe_84934cfa",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-05-09T09:30:24Z",
+      "side": 1,
+      "message": "The only reason it seems like more effort is because you\u0027re not the one doing it, qualcomm is with their scripts. FWIW this isn\u0027t likely to change between variants, I checked on m8vzw and a GSM m8. If things change with an updated firmware we\u0027d naturally have to keep it up to date, the same way if things changed we\u0027d have to update the scripts that would otherwise generate the links. I would argue doing this once at build time is much better than doing this potentially multiple times at run time.",
+      "parentUuid": "1af94dfe_e4ecd091",
+      "revId": "af7fa8e4dc3b95da6785faeb5b434bf022fa38eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
