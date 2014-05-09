@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1af94dfe_e4ecd091",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-05-09T09:05:41Z",
+      "side": 1,
+      "message": "it seems to me this could cause more headaches than its worth\n\nwhat if these change with an updated firmware? we need to keep it up to date? differences in variants?\n\niterating through what\u0027s *actually* there seems a better approach imo",
+      "revId": "af7fa8e4dc3b95da6785faeb5b434bf022fa38eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
