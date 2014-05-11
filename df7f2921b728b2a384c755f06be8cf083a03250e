@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_02e8d07b",
+        "filename": "init/init_m8.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-05-11T08:58:26Z",
+      "side": 1,
+      "message": "still a dupe",
+      "revId": "df7f2921b728b2a384c755f06be8cf083a03250e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_e2ecbc91",
+        "filename": "init/init_m8.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-05-11T08:58:26Z",
+      "side": 1,
+      "message": "s/\u003d1//",
+      "revId": "df7f2921b728b2a384c755f06be8cf083a03250e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
