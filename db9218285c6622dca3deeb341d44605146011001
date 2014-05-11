@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_2d098532",
+        "filename": "overlay/packages/apps/DSPManager/res/xml/speaker_preferences.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 4123
+      },
+      "writtenOn": "2014-05-11T13:37:43Z",
+      "side": 1,
+      "message": "Whitespace",
+      "revId": "db9218285c6622dca3deeb341d44605146011001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
