@@ -16,6 +16,24 @@
       "revId": "a2b6a72133b0120eed01ed3d91fa60f2a5cdf0e6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_ce9a7fc5",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-05-13T09:30:33Z",
+      "side": 1,
+      "message": "look i like swimming against the stream\n\nit makes me feel alive\n\n(will fixit)",
+      "parentUuid": "da0c15f0_ae78eb90",
+      "revId": "a2b6a72133b0120eed01ed3d91fa60f2a5cdf0e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
