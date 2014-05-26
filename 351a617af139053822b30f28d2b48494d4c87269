@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_109ac714",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/CoverObserver.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-05-26T13:00:13Z",
+      "side": 1,
+      "message": "Aren\u0027t there constants for this?",
+      "revId": "351a617af139053822b30f28d2b48494d4c87269",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_709fc303",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseActivity.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-05-26T13:00:13Z",
+      "side": 1,
+      "message": "Line break",
+      "revId": "351a617af139053822b30f28d2b48494d4c87269",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_b0895bcd",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseActivity.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-05-26T13:00:13Z",
+      "side": 1,
+      "message": "There\u0027s no better way to do this than via reflection?",
+      "revId": "351a617af139053822b30f28d2b48494d4c87269",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_50a43f56",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseActivity.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-05-26T13:00:13Z",
+      "side": 1,
+      "message": "You might want to have a constant for this since it seems to be used in a few places.",
+      "revId": "351a617af139053822b30f28d2b48494d4c87269",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_9086d7b7",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-05-26T13:00:13Z",
+      "side": 1,
+      "message": "Nested ternary statements can get a little difficult to read.",
+      "revId": "351a617af139053822b30f28d2b48494d4c87269",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
