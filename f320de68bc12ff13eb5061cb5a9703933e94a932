@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_86e4dd0d",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-05-28T11:17:23Z",
+      "side": 1,
+      "message": "None of the above lines are needed. Permissions/owners it is setting are the same without these. Also all files that are used here in /sys/power/ no longer exist.\n\nThe line below is root:root though, but I\u0027m not sure what would use it.",
+      "revId": "f320de68bc12ff13eb5061cb5a9703933e94a932",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_e6f159cf",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 580,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-05-28T11:17:23Z",
+      "side": 1,
+      "message": "oh noes! extra whitespace!",
+      "revId": "f320de68bc12ff13eb5061cb5a9703933e94a932",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
