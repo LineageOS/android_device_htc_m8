@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_542541a9",
+        "filename": "dotcase/AndroidManifest.xml",
+        "patchSetId": 22
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2014-06-09T11:34:33Z",
+      "side": 1,
+      "message": "Might want to consider android:exported\u003d\"false\"",
+      "revId": "1d317c1a645ba1a5694f652bba79dfc99e7013da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_7420459c",
+        "filename": "dotcase/AndroidManifest.xml",
+        "patchSetId": 22
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2014-06-09T11:34:33Z",
+      "side": 1,
+      "message": "Usually want name first. Easier to navigate manifest.",
+      "revId": "1d317c1a645ba1a5694f652bba79dfc99e7013da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_3426cdba",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/Dotcase.java",
+        "patchSetId": 22
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2014-06-09T11:34:33Z",
+      "side": 1,
+      "message": "codestyle",
+      "revId": "1d317c1a645ba1a5694f652bba79dfc99e7013da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
