@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_119ab714",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/CoverObserver.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2014-07-05T07:48:19Z",
+      "side": 1,
+      "message": "Should we return here if we fail to save the old brightness?",
+      "revId": "9ca874ec7d8f58f707e816a438ad907b2ba58546",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
