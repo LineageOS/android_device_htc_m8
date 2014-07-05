@@ -16,6 +16,24 @@
       "revId": "9ca874ec7d8f58f707e816a438ad907b2ba58546",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_b1894bcd",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/CoverObserver.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 6351
+      },
+      "writtenOn": "2014-07-05T08:01:45Z",
+      "side": 1,
+      "message": "You should log the exception to see what is going wrong (and verify that it really is throwing an exception).\n\nAnd, for the record, it\u0027s really bad to catch Exception.  But I assume you know that.",
+      "parentUuid": "ba0121b8_119ab714",
+      "revId": "9ca874ec7d8f58f707e816a438ad907b2ba58546",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
