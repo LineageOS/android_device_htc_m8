@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_1168f7f4",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/CoverObserver.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-07-05T10:17:58Z",
+      "side": 1,
+      "message": "I\u0027m thinking this should even go at the beginning of this method. Thoughts?",
+      "revId": "eed87b48cc06fd21fa854d18041566f353592472",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
