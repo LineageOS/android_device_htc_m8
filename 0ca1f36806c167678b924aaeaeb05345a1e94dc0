@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ba0121b8_c0ca274f",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/Dotcase.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2014-07-08T14:54:41Z",
+      "side": 1,
+      "message": "The sensor only returns one of two values: near and far. If we\u0027re not far, we\u0027re pocketed. Check out androsensor to get live readings (wave your hand around at any distance and you\u0027ll see either 0cm or 9cm).",
+      "parentUuid": "ba0121b8_80b02fdf",
+      "revId": "0ca1f36806c167678b924aaeaeb05345a1e94dc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba0121b8_20bb23c6",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/Dotcase.java",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2014-07-08T14:49:17Z",
       "side": 1,
       "message": "something doesn\u0027t seem right here...shouldn\u0027t we only be handing input if we\u0027re not pocketed?",
+      "revId": "0ca1f36806c167678b924aaeaeb05345a1e94dc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_a0c73344",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/Dotcase.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2014-07-08T14:54:41Z",
+      "side": 1,
+      "message": "I have the flag backwards. I\u0027ll fix that. The logic is right (works really well actually), it\u0027s just named for the opposite of what it does.",
+      "parentUuid": "ba0121b8_20bb23c6",
       "revId": "0ca1f36806c167678b924aaeaeb05345a1e94dc0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
