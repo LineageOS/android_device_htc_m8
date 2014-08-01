@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a061dce_17c75513",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/CoverObserver.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 10243
+      },
+      "writtenOn": "2014-08-01T15:39:55Z",
+      "side": 1,
+      "message": "We don\u0027t need another permission.",
+      "parentUuid": "9a061dce_9c26ea14",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a061dce_7c231606",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/CoverObserver.java",
         "patchSetId": 2
@@ -30,6 +48,41 @@
       "writtenOn": "2014-08-01T11:25:48Z",
       "side": 1,
       "message": "Is this an error case? Should we log an error if this is empty?",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_f7cbc11c",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/CoverObserver.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 10243
+      },
+      "writtenOn": "2014-08-01T15:39:55Z",
+      "side": 1,
+      "message": "This is not an error case. This is a case when the phone number is not in your contact list.",
+      "parentUuid": "9a061dce_7c231606",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_b74b09b0",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 771,
+      "author": {
+        "id": 10243
+      },
+      "writtenOn": "2014-08-01T15:39:55Z",
+      "side": 1,
+      "message": "If we want to accept uppercase letters I\u0027d just do\ncase \u0027A\u0027:\ncase \u0027a\u0027:\n      return smallA;\n\n(Small meaning size small)",
       "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +106,24 @@
     },
     {
       "key": {
+        "uuid": "9a061dce_d74e7dc0",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseStatus.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 10243
+      },
+      "writtenOn": "2014-08-01T15:39:55Z",
+      "side": 1,
+      "message": "yup",
+      "parentUuid": "9a061dce_dc2062fa",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a061dce_bc1daebf",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
         "patchSetId": 2
@@ -70,6 +141,24 @@
     },
     {
       "key": {
+        "uuid": "9a061dce_77517162",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 387,
+      "author": {
+        "id": 10243
+      },
+      "writtenOn": "2014-08-01T15:39:55Z",
+      "side": 1,
+      "message": "True. This is set to reset after 500 rings so the integer doesn\u0027t overflow eventually.",
+      "parentUuid": "9a061dce_bc1daebf",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a061dce_1c793afd",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
         "patchSetId": 2
@@ -81,6 +170,24 @@
       "writtenOn": "2014-08-01T11:25:48Z",
       "side": 1,
       "message": "Why do we need to do toLowerCase on the phone number?",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_97540555",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 401,
+      "author": {
+        "id": 10243
+      },
+      "writtenOn": "2014-08-01T15:39:55Z",
+      "side": 1,
+      "message": "Oops, my bad.\nThis is leftover from while I was building it. I realized that a restricted call made the phone number as \u0027Restricted\u0027. Orignally I just tried to put here, but then I moved it to the phoneName. \nsee CoverObserver.java line 147\n\nThis method should be reverted",
+      "parentUuid": "9a061dce_1c793afd",
       "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
