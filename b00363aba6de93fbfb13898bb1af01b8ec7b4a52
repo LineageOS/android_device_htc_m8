@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "9a061dce_13fda83a",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/CoverObserver.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2014-08-02T05:58:52Z",
+      "side": 1,
+      "message": "Really? Accessing contacts doesn\u0027t require a permission?",
+      "parentUuid": "9a061dce_17c75513",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a061dce_7c231606",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/CoverObserver.java",
         "patchSetId": 2
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "This is not an error case. This is a case when the phone number is not in your contact list.",
       "parentUuid": "9a061dce_7c231606",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_f3f9144f",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/CoverObserver.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2014-08-02T05:58:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a061dce_f7cbc11c",
       "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -136,6 +172,24 @@
       "side": 1,
       "message": "yup",
       "parentUuid": "9a061dce_dc2062fa",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_539560e2",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseStatus.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2014-08-02T05:58:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a061dce_d74e7dc0",
       "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -260,6 +314,24 @@
       "side": 1,
       "message": "Fair enough. I like the i \u003c 10 that you added above, though. Just in case.",
       "parentUuid": "9a061dce_97540555",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_339a6c15",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 401,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2014-08-02T05:58:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a061dce_b36afc18",
       "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
