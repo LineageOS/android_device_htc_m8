@@ -195,6 +195,24 @@
     },
     {
       "key": {
+        "uuid": "9a061dce_33cc2c35",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 387,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2014-08-02T05:54:36Z",
+      "side": 1,
+      "message": "Actually, is there any reason to track phoneNameTicker at all? Why not just % by the length each time? No reason to save the bigger number, it\u0027s only ever used in its modulo form (nameOffset). Reset to 0 when the call begins, and modulo after each increment. Thoughts?",
+      "parentUuid": "9a061dce_738864e8",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a061dce_1c793afd",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
         "patchSetId": 2
