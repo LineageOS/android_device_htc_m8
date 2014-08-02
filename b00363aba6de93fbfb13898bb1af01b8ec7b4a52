@@ -89,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "9a061dce_137808f2",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 771,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2014-08-02T05:40:02Z",
+      "side": 1,
+      "message": "Wouldn\u0027t it be easier just to do a toLower here? Actually, don\u0027t you already, in DrawView.drawName()?",
+      "parentUuid": "9a061dce_b74b09b0",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a061dce_dc2062fa",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseStatus.java",
         "patchSetId": 2
@@ -159,6 +177,24 @@
     },
     {
       "key": {
+        "uuid": "9a061dce_738864e8",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 387,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2014-08-02T05:40:02Z",
+      "side": 1,
+      "message": "Well, however often onDraw is called, right? Which is regularly every 500 ms, I think. So unless we think the phone will be ringing for over 4 minutes, even this should never happen. I think we can reset this to 0 when a call first comes in, and never worry about it during the ringing: INT_MAX/500 ms seems like way longer than we should need to handle for a call.",
+      "parentUuid": "9a061dce_77517162",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a061dce_1c793afd",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
         "patchSetId": 2
@@ -188,6 +224,24 @@
       "side": 1,
       "message": "Oops, my bad.\nThis is leftover from while I was building it. I realized that a restricted call made the phone number as \u0027Restricted\u0027. Orignally I just tried to put here, but then I moved it to the phoneName. \nsee CoverObserver.java line 147\n\nThis method should be reverted",
       "parentUuid": "9a061dce_1c793afd",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_b36afc18",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 401,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2014-08-02T05:40:02Z",
+      "side": 1,
+      "message": "Fair enough. I like the i \u003c 10 that you added above, though. Just in case.",
+      "parentUuid": "9a061dce_97540555",
       "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
