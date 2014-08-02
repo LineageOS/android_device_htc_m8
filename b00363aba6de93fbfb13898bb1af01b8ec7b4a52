@@ -267,6 +267,24 @@
     },
     {
       "key": {
+        "uuid": "9a061dce_73a4e456",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 387,
+      "author": {
+        "id": 10243
+      },
+      "writtenOn": "2014-08-02T06:06:30Z",
+      "side": 1,
+      "message": "I\u0027m not sure exactly what you mean. We need a way to move the text. I was gonna use the ticker associated with the handset icon, but that resets after a couple cycles.\nIf you have a better way that\u0027s ok by me.",
+      "parentUuid": "9a061dce_33cc2c35",
+      "revId": "b00363aba6de93fbfb13898bb1af01b8ec7b4a52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a061dce_1c793afd",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DrawView.java",
         "patchSetId": 2
