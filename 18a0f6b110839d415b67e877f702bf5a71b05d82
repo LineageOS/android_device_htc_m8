@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a061dce_22a0549f",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 913,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-06T05:28:51Z",
+      "side": 1,
+      "message": "Should be \"speaker-dmic-endfire\".",
+      "revId": "18a0f6b110839d415b67e877f702bf5a71b05d82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_62a1aca9",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 917,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-06T05:28:51Z",
+      "side": 1,
+      "message": "Should be just \"earpiece\".",
+      "revId": "18a0f6b110839d415b67e877f702bf5a71b05d82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_82b040f6",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 937,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-06T05:28:51Z",
+      "side": 1,
+      "message": "Should be \"earpiece-voice\".",
+      "revId": "18a0f6b110839d415b67e877f702bf5a71b05d82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_c2923857",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 957,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-06T05:28:51Z",
+      "side": 1,
+      "message": "Should be \"speaker-dmic-endfire\".",
+      "revId": "18a0f6b110839d415b67e877f702bf5a71b05d82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
