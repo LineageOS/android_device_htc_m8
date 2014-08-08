@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a061dce_ff2f0e9f",
+        "filename": "system.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-08T09:39:59Z",
+      "side": 1,
+      "message": "shouldn\u0027t this be set to 0?",
+      "revId": "420f3ab492a5b8d5ad3be515e934292b8e04a0c0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
