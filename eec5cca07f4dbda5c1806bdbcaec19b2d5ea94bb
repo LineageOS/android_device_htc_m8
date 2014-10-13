@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_735f8941",
+        "filename": "mkbootimg.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-10-13T05:34:38Z",
+      "side": 1,
+      "message": "I think you may be able to get rid of everything before this line.",
+      "revId": "eec5cca07f4dbda5c1806bdbcaec19b2d5ea94bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
