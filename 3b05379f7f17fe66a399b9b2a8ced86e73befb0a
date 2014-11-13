@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a122d0e_7f74bafc",
+        "filename": "camera/CameraWrapper.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 8657
+      },
+      "writtenOn": "2014-11-13T09:20:27Z",
+      "side": 0,
+      "message": "You may want to add legacy_open instead of removing reserved, which is what g++ is actually complaining about. Great error reporting.",
+      "revId": "3b05379f7f17fe66a399b9b2a8ced86e73befb0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
