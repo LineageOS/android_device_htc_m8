@@ -16,6 +16,23 @@
       "revId": "32f2e71052d24fffd0faf9808c89382739368146",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_7a69868b",
+        "filename": "overlay/frameworks/base/packages/SettingsProvider/res/values/defaults.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-11-26T10:07:03Z",
+      "side": 1,
+      "message": "this file can go away completely too",
+      "revId": "32f2e71052d24fffd0faf9808c89382739368146",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
