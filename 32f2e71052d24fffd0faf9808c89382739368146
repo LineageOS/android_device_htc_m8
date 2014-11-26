@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_3a6ffe93",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-11-26T10:06:11Z",
+      "side": 1,
+      "message": "i think this is completely useless now",
+      "revId": "32f2e71052d24fffd0faf9808c89382739368146",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
