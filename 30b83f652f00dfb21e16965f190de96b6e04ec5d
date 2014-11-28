@@ -16,6 +16,24 @@
       "revId": "30b83f652f00dfb21e16965f190de96b6e04ec5d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_e1fe6904",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 10
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-11-28T02:16:51Z",
+      "side": 1,
+      "message": "nope\n\nthis patch needs some cleanup (along with all my other selinux patches) so i\u0027ll fix it then",
+      "parentUuid": "bab6814e_a606371e",
+      "revId": "30b83f652f00dfb21e16965f190de96b6e04ec5d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
