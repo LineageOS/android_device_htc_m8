@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_a606371e",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 10
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 6351
+      },
+      "writtenOn": "2014-11-28T02:05:00Z",
+      "side": 1,
+      "message": "Do you really want the \"-\" here?  Sounds dangerous...",
+      "revId": "30b83f652f00dfb21e16965f190de96b6e04ec5d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
