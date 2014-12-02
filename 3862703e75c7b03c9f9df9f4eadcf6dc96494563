@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_89da1c77",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-12-02T15:25:30Z",
+      "side": 1,
+      "message": "spaces",
+      "revId": "3862703e75c7b03c9f9df9f4eadcf6dc96494563",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_49f834e6",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 343,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-12-02T15:25:30Z",
+      "side": 1,
+      "message": "please clean up the whitespace and use spaces instead of tabs below",
+      "revId": "3862703e75c7b03c9f9df9f4eadcf6dc96494563",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_a9dd6072",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 390,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-12-02T15:25:30Z",
+      "side": 1,
+      "message": "spaces",
+      "revId": "3862703e75c7b03c9f9df9f4eadcf6dc96494563",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
