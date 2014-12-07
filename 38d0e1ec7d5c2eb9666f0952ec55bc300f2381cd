@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_20c5f63b",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2014-12-07T13:04:02Z",
+      "side": 1,
+      "message": "Whitespace",
+      "revId": "38d0e1ec7d5c2eb9666f0952ec55bc300f2381cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_00c27233",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2014-12-07T13:04:02Z",
+      "side": 1,
+      "message": "Whitespace",
+      "revId": "38d0e1ec7d5c2eb9666f0952ec55bc300f2381cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
