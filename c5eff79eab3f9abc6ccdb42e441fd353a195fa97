@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_c0d86af2",
+        "filename": "sepolicy/kcal_dev.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 7025
+      },
+      "writtenOn": "2014-12-07T15:47:00Z",
+      "side": 1,
+      "message": "This needs to be fixed.  Thank you.",
+      "revId": "c5eff79eab3f9abc6ccdb42e441fd353a195fa97",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
