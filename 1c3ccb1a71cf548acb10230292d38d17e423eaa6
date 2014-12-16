@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_c9e1d2d2",
+        "filename": "recovery/root/init.recovery.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-12-16T17:33:50Z",
+      "side": 1,
+      "message": "You may not need to do all this stuff again, charger will still execute early-init, init.",
+      "revId": "1c3ccb1a71cf548acb10230292d38d17e423eaa6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
