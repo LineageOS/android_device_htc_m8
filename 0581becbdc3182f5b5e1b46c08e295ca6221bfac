@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_b5e4860d",
+        "filename": "overlay/frameworks/base/core/res/res/values-mcc204-mnc04/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 3803
+      },
+      "writtenOn": "2014-12-24T18:39:00Z",
+      "side": 1,
+      "message": "This links to a user agent that does not apply to this device.",
+      "revId": "0581becbdc3182f5b5e1b46c08e295ca6221bfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_d5e79210",
+        "filename": "overlay/frameworks/base/core/res/res/values-mcc310-mnc120/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 3803
+      },
+      "writtenOn": "2014-12-24T18:39:00Z",
+      "side": 1,
+      "message": "This is not the Nexus 6, this is the HTC One.",
+      "revId": "0581becbdc3182f5b5e1b46c08e295ca6221bfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
