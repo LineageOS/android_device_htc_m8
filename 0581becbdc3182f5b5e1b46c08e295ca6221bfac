@@ -33,6 +33,24 @@
       "revId": "0581becbdc3182f5b5e1b46c08e295ca6221bfac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_75a4de56",
+        "filename": "overlay/frameworks/base/core/res/res/values-mcc310-mnc120/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 7025
+      },
+      "writtenOn": "2014-12-25T02:35:07Z",
+      "side": 1,
+      "message": "https://github.com/CyanogenMod/android_device_htc_m8/blob/cm-12.0/overlay/frameworks/base/core/res/res/values/config.xml#L248",
+      "parentUuid": "7aa08908_d5e79210",
+      "revId": "0581becbdc3182f5b5e1b46c08e295ca6221bfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
