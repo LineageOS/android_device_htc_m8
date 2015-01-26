@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad55976_3b6a681b",
+        "filename": "sepolicy/radio.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-01-26T11:54:20Z",
+      "side": 1,
+      "message": "why radio?  I would expect system",
+      "revId": "5c57f80926f8eebde9243105fbf60275942c1834",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
