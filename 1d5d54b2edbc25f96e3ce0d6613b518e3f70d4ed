@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bacf61ea_129f8904",
+        "filename": "init/init_m8.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-02-05T11:50:47Z",
+      "side": 0,
+      "message": "are you sure you want to remove this? doesn\u0027t sprint get sub from nv (1) still? this absolutely has to be 0 (ruim/sim) for vzw though.",
+      "revId": "1d5d54b2edbc25f96e3ce0d6613b518e3f70d4ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_528901ca",
+        "filename": "system.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-02-05T11:50:47Z",
+      "side": 0,
+      "message": "you should leave this, without it we won\u0027t have the subscription menu",
+      "revId": "1d5d54b2edbc25f96e3ce0d6613b518e3f70d4ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_32860dba",
+        "filename": "system.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-02-05T11:50:47Z",
+      "side": 0,
+      "message": "leave this as well",
+      "revId": "1d5d54b2edbc25f96e3ce0d6613b518e3f70d4ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
