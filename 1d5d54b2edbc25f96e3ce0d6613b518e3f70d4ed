@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "bacf61ea_14b6518a",
+        "filename": "system.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 11525
+      },
+      "writtenOn": "2015-02-07T23:09:57Z",
+      "side": 0,
+      "message": "Doesn\u0027t work anyways. Regardless of if you choose SIM/RUIM, subscription stays on NV.",
+      "parentUuid": "bacf61ea_528901ca",
+      "revId": "1d5d54b2edbc25f96e3ce0d6613b518e3f70d4ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bacf61ea_32860dba",
         "filename": "system.prop",
         "patchSetId": 2
