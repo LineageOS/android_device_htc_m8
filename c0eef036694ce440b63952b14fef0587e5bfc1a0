@@ -16,6 +16,24 @@
       "revId": "c0eef036694ce440b63952b14fef0587e5bfc1a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_9d55451f",
+        "filename": "init/init_m8.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 6572
+      },
+      "writtenOn": "2015-02-09T12:09:25Z",
+      "side": 1,
+      "message": "The stock Rom is \u003d1\u003d1 so this matches stock.",
+      "parentUuid": "bacf61ea_fdc60115",
+      "revId": "c0eef036694ce440b63952b14fef0587e5bfc1a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
