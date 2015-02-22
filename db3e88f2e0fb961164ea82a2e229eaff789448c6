@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bacf61ea_9a6a4e19",
+        "filename": "releasetools/makelinks.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2015-02-22T01:05:41Z",
+      "side": 1,
+      "message": "Nitpicking Deluxe (TM): The comment should be \"Detect variant and create symlinks to its specific blobs\" if you want correct english. :)\n\nThe meaning is quite clear regardless though.",
+      "revId": "db3e88f2e0fb961164ea82a2e229eaff789448c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
