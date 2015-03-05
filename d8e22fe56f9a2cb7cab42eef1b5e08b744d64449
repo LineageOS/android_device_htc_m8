@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_da81844f",
+        "filename": "ril/telephony/java/com/android/internal/telephony/m8RIL.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-03-05T17:26:36Z",
+      "side": 1,
+      "message": "is this necessary?",
+      "revId": "d8e22fe56f9a2cb7cab42eef1b5e08b744d64449",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_ba865063",
+        "filename": "ril/telephony/java/com/android/internal/telephony/m8RIL.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-03-05T17:26:36Z",
+      "side": 1,
+      "message": "and this?",
+      "revId": "d8e22fe56f9a2cb7cab42eef1b5e08b744d64449",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_3a9380a5",
+        "filename": "ril/telephony/java/com/android/internal/telephony/m8RIL.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-03-05T17:26:36Z",
+      "side": 1,
+      "message": "minor spacing issue around the \u003d\u003d (nitpicking now, i know)",
+      "revId": "d8e22fe56f9a2cb7cab42eef1b5e08b744d64449",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_9a90ac97",
+        "filename": "ril/telephony/java/com/android/internal/telephony/m8RIL.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-03-05T17:26:36Z",
+      "side": 1,
+      "message": "spacing again around the +",
+      "revId": "d8e22fe56f9a2cb7cab42eef1b5e08b744d64449",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_dae86419",
+        "filename": "ril/telephony/java/com/android/internal/telephony/m8RIL.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-03-05T17:26:36Z",
+      "side": 1,
+      "message": "spacing \u003d",
+      "revId": "d8e22fe56f9a2cb7cab42eef1b5e08b744d64449",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
