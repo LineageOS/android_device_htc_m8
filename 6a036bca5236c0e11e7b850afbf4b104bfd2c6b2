@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_847e97ac",
+        "filename": "init/init_m8.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 6572
+      },
+      "writtenOn": "2015-03-05T10:19:16Z",
+      "side": 1,
+      "message": "This line only should go into sprint because it sets the hack (which would work on all but why set it up that way if we dont have to). Thats why I did it this way :)",
+      "revId": "6a036bca5236c0e11e7b850afbf4b104bfd2c6b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_24440b73",
+        "filename": "ril/telephony/java/com/android/internal/telephony/m8RIL.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 6572
+      },
+      "writtenOn": "2015-03-05T10:19:16Z",
+      "side": 1,
+      "message": "Which imports are really necessary? This needs cleaned before a merge",
+      "revId": "6a036bca5236c0e11e7b850afbf4b104bfd2c6b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
