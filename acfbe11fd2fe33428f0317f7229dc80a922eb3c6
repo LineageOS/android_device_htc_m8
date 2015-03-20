@@ -16,6 +16,24 @@
       "revId": "acfbe11fd2fe33428f0317f7229dc80a922eb3c6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac665da_71e243a1",
+        "filename": "releasetools/makelinks.sh",
+        "patchSetId": 7
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-03-20T02:50:43Z",
+      "side": 1,
+      "message": "Works for me without it, using twrp\u0027s shell as well as the shell on the running system. Let me try the shell in cwm.",
+      "parentUuid": "5ac665da_51dbc7ed",
+      "revId": "acfbe11fd2fe33428f0317f7229dc80a922eb3c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
