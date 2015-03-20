@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac665da_31f56b83",
+        "filename": "releasetools/makelinks.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-03-20T01:40:12Z",
+      "side": 1,
+      "message": "Is /tmp really what you mean here? Why the change from inspecting /firmware/radio, as you do in the next case down?",
+      "revId": "88039576f9ffa0c1c34897031b00fa3c0630b87f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
