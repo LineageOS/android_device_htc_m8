@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac665da_51dbc7ed",
+        "filename": "releasetools/makelinks.sh",
+        "patchSetId": 7
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-03-20T02:48:56Z",
+      "side": 1,
+      "message": "i think we need double brackets around both conditions here",
+      "revId": "acfbe11fd2fe33428f0317f7229dc80a922eb3c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
