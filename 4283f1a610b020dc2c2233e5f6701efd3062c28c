@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac665da_e7395143",
+        "filename": "releasetools/makelinks.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-03-21T01:59:51Z",
+      "side": 1,
+      "message": "I don\u0027t think we want to look at all *.b00 in there.\n\nAlso this likely breaks compatibility with older modems that might have DEBUG0 and actually work.",
+      "revId": "4283f1a610b020dc2c2233e5f6701efd3062c28c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
