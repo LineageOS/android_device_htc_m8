@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac665da_79cea184",
+        "filename": "init/init_m8.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-03-25T06:54:25Z",
+      "side": 1,
+      "message": "this should just go in system.prop...",
+      "revId": "6ccb03a29059415e6c41b56a31c3878f10b64e11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
