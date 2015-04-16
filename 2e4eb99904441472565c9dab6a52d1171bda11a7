@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3ac371cc_b02f86a0",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-04-16T03:51:38Z",
+      "side": 1,
+      "message": "Wow, too much Paint objects, no? Paint has native code associated, so probably is better to have only one paint reference and change its color.\n\nJust recover the paint before loop in the DotCaseView",
+      "revId": "2e4eb99904441472565c9dab6a52d1171bda11a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_502292ba",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-04-16T03:51:38Z",
+      "side": 1,
+      "message": "This doesn\u0027t exists",
+      "revId": "2e4eb99904441472565c9dab6a52d1171bda11a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_902c0aad",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 383,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-04-16T03:51:38Z",
+      "side": 1,
+      "message": "static final vars are named in uppercase",
+      "revId": "2e4eb99904441472565c9dab6a52d1171bda11a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
