@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "da7fb54a_6449c4d0",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 8657
+      },
+      "writtenOn": "2015-04-23T03:59:00Z",
+      "side": 1,
+      "message": "Why not \"TAPATALK\"? All the other elements are using full names.",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7fb54a_04b9d8e9",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
         "patchSetId": 7
