@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da7fb54a_87e24a9e",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 9354
+      },
+      "writtenOn": "2015-04-23T08:52:31Z",
+      "side": 1,
+      "message": "Idk, for me, LMMS is the lollipop mms icon vs MMS is the normal green icon.",
+      "parentUuid": "da7fb54a_e48234c8",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7fb54a_6449c4d0",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
         "patchSetId": 7
@@ -54,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "da7fb54a_a7ed8e90",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 9354
+      },
+      "writtenOn": "2015-04-23T08:52:31Z",
+      "side": 1,
+      "message": "I got lazy? Changed.",
+      "parentUuid": "da7fb54a_0488f8e6",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7fb54a_246dfc32",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
         "patchSetId": 7
@@ -65,6 +101,24 @@
       "writtenOn": "2015-04-23T04:29:31Z",
       "side": 1,
       "message": "Proper casing is pLmmsGreen and pLmmsGrey",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_0772bae5",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 9354
+      },
+      "writtenOn": "2015-04-23T08:52:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7fb54a_246dfc32",
       "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -105,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "da7fb54a_27897ecb",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 9354
+      },
+      "writtenOn": "2015-04-23T08:52:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7fb54a_644e24c3",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7fb54a_04b9d8e9",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
         "patchSetId": 7
@@ -116,6 +188,24 @@
       "writtenOn": "2015-04-23T00:50:22Z",
       "side": 1,
       "message": "Is there a reason we wouldn\u0027t just change the MMS sprite?",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_e76cf60a",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 9354
+      },
+      "writtenOn": "2015-04-23T08:52:31Z",
+      "side": 1,
+      "message": "idk, LMMS sprite is the lollipop mms icon that doesn\u0027t fit the rest? Where as the MMS icon is more generic for the rest of the apps.",
+      "parentUuid": "da7fb54a_04b9d8e9",
       "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -139,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "da7fb54a_478682ba",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 9354
+      },
+      "writtenOn": "2015-04-23T08:52:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7fb54a_844b28b0",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7fb54a_a45f4c74",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
         "patchSetId": 7
@@ -156,6 +264,24 @@
     },
     {
       "key": {
+        "uuid": "da7fb54a_47ada230",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 393,
+      "author": {
+        "id": 9354
+      },
+      "writtenOn": "2015-04-23T08:52:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7fb54a_a45f4c74",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7fb54a_045f1873",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
         "patchSetId": 7
@@ -167,6 +293,24 @@
       "writtenOn": "2015-04-23T04:29:31Z",
       "side": 1,
       "message": "Current sprite looks weird to me:\n\n  ...  \n ..X.. \n .XX.. \n .XXX. \n ..X.. \n ..X.. \n ....  \n.\n\nIs this possibly better? I\u0027m not convinced, it\u0027s just a suggestion.\n\n  ...  \n ..X.. \n .XXX. \n ..X.. \n ..X.. \n ..XX. \n ....  \n.",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_07bb9a73",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 431,
+      "author": {
+        "id": 9354
+      },
+      "writtenOn": "2015-04-23T08:52:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7fb54a_045f1873",
       "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
