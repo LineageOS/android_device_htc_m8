@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da7fb54a_472202bb",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 9354
+      },
+      "writtenOn": "2015-04-23T09:10:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7fb54a_2426dc16",
+      "range": {
+        "startLine": 220,
+        "startChar": 25,
+        "endLine": 220,
+        "endChar": 36
+      },
+      "revId": "012d24cd7d406ec1ce0325446ae68310b09cfca0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7fb54a_a4782cfa",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
         "patchSetId": 7
@@ -36,6 +60,30 @@
       "writtenOn": "2015-04-23T04:14:20Z",
       "side": 1,
       "message": "to be consistent, this should be bottom-aligned (the blank line should be first, not last).\n\ni also don\u0027t love the sprite but i don\u0027t necessarily have anything better. maybe a rounded box would look better than a diamond?\n\n .....\n...X...\n...X...\n.XXXXX.\n...X...\n...X...\n .....",
+      "range": {
+        "startLine": 228,
+        "startChar": 24,
+        "endLine": 228,
+        "endChar": 25
+      },
+      "revId": "012d24cd7d406ec1ce0325446ae68310b09cfca0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_672f06a2",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 9354
+      },
+      "writtenOn": "2015-04-23T09:10:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7fb54a_a4782cfa",
       "range": {
         "startLine": 228,
         "startChar": 24,
