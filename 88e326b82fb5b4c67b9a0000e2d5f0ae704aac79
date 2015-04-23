@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7fb54a_64fc643f",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 8657
+      },
+      "writtenOn": "2015-04-23T04:47:58Z",
+      "side": 1,
+      "message": "Blargh, whitespace.",
+      "revId": "88e326b82fb5b4c67b9a0000e2d5f0ae704aac79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
