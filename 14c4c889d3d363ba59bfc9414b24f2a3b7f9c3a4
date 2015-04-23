@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "da7fb54a_e48234c8",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-04-23T04:29:31Z",
+      "side": 1,
+      "message": "Why distinguish between \"LMMS\" (whatever that is) and other MMS apps?",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7fb54a_6449c4d0",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
         "patchSetId": 7
@@ -19,6 +36,75 @@
     },
     {
       "key": {
+        "uuid": "da7fb54a_0488f8e6",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-04-23T04:29:31Z",
+      "side": 1,
+      "message": "Agree.",
+      "parentUuid": "da7fb54a_6449c4d0",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_246dfc32",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-04-23T04:29:31Z",
+      "side": 1,
+      "message": "Proper casing is pLmmsGreen and pLmmsGrey",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_446a001c",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-04-23T04:29:31Z",
+      "side": 1,
+      "message": "The number of paints might be getting out of control... it\u0027s definitely an orthogonal change (i.e., shouldn\u0027t be a part of this commit) but maybe we should pass something else to identify the color, and use a single paint that we change the color of...",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_644e24c3",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-04-23T04:29:31Z",
+      "side": 1,
+      "message": "probably belongs in \"other\" apps, not grouped with the apps that show an email sprite.",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7fb54a_04b9d8e9",
         "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
         "patchSetId": 7
@@ -30,6 +116,57 @@
       "writtenOn": "2015-04-23T00:50:22Z",
       "side": 1,
       "message": "Is there a reason we wouldn\u0027t just change the MMS sprite?",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_844b28b0",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-04-23T04:29:31Z",
+      "side": 1,
+      "message": "as above, should probably be in \"other\", as these are generally grouped by which sprite they show (for sprites that are triggered by multiple apps).",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_a45f4c74",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 393,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-04-23T04:29:31Z",
+      "side": 1,
+      "message": "kind of a bizarre-looking sprite, but then again so are most of them. i vote to either replace the existing mms or drop this, though. i don\u0027t think we need 2 sprites for mms alone.",
+      "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_045f1873",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 431,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-04-23T04:29:31Z",
+      "side": 1,
+      "message": "Current sprite looks weird to me:\n\n  ...  \n ..X.. \n .XX.. \n .XXX. \n ..X.. \n ..X.. \n ....  \n.\n\nIs this possibly better? I\u0027m not convinced, it\u0027s just a suggestion.\n\n  ...  \n ..X.. \n .XXX. \n ..X.. \n ..X.. \n ..XX. \n ....  \n.",
       "revId": "14c4c889d3d363ba59bfc9414b24f2a3b7f9c3a4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
