@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7fb54a_75db301c",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-04-24T01:13:13Z",
+      "side": 1,
+      "message": "leftover tab",
+      "revId": "da2a71adf26edc63c6f6a71cdf6fbd5802474819",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_b503f875",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-04-24T01:13:13Z",
+      "side": 1,
+      "message": "Should probably add com.google.android.apps.messaging here, too, though I\u0027m not sure which sprite is best for it, if we keep both...",
+      "revId": "da2a71adf26edc63c6f6a71cdf6fbd5802474819",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_95d8b41f",
+        "filename": "dotcase/src/org/cyanogenmod/dotcase/DotcaseConstants.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 4201
+      },
+      "writtenOn": "2015-04-24T01:13:13Z",
+      "side": 1,
+      "message": "tab",
+      "revId": "da2a71adf26edc63c6f6a71cdf6fbd5802474819",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
