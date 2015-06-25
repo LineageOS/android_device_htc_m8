@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bff0334d_265e82e6",
+        "filename": "amplifier/audio_amplifier.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-25T05:51:18Z",
+      "side": 1,
+      "message": "You probably need a corresponding unmute in output_stream_start.",
+      "revId": "1ef49d1f6b6a0ab33eec86953afd811290d169e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bff0334d_06737e82",
+        "filename": "amplifier/tfa9887.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 1198,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-25T05:51:18Z",
+      "side": 1,
+      "message": "You probably want this to take a boolean enable parameter so you can mute/unmute here.",
+      "revId": "1ef49d1f6b6a0ab33eec86953afd811290d169e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
