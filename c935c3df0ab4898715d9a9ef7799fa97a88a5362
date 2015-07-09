@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_912a2ce5",
+        "filename": "amplifier/tfa9887.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-09T04:17:06Z",
+      "side": 1,
+      "message": ".drc",
+      "revId": "c935c3df0ab4898715d9a9ef7799fa97a88a5362",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_712fa0f6",
+        "filename": "amplifier/tfa9887.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-09T04:17:06Z",
+      "side": 1,
+      "message": ".drc",
+      "revId": "c935c3df0ab4898715d9a9ef7799fa97a88a5362",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
