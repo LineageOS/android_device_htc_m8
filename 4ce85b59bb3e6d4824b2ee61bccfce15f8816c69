@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_060dc03d",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 520,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-09T01:21:07Z",
+      "side": 1,
+      "message": "This will not work with encryption. You might want to do something similar to what we are doing here: https://github.com/CyanogenMod/android_device_motorola_msm8226-common/commit/350681c0ab2fdbb5eb1e1a2db5e9b30499b4b5bb",
+      "revId": "4ce85b59bb3e6d4824b2ee61bccfce15f8816c69",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
