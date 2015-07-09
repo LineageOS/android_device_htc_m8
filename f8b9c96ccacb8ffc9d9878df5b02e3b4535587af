@@ -16,6 +16,24 @@
       "revId": "f8b9c96ccacb8ffc9d9878df5b02e3b4535587af",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_4cff6767",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 519,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2015-07-09T19:22:53Z",
+      "side": 1,
+      "message": "No, because it fails with encryption enabled. See previous comments: http://review.cyanogenmod.org/#/c/102733/2/rootdir/etc/init.qcom.rc.",
+      "parentUuid": "5ff73747_8c056f7d",
+      "revId": "f8b9c96ccacb8ffc9d9878df5b02e3b4535587af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
