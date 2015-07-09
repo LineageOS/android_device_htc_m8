@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_8cbb2fe4",
+        "filename": "init/init_m8.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2015-07-09T14:36:29Z",
+      "side": 1,
+      "message": "Any reason not to use the stock model string (HTC One_M8)? I\u0027ll revert string on DS variant to the stock one (HTC One_M8 dual sim) because Exchange considers it for server authentication.",
+      "range": {
+        "startLine": 151,
+        "startChar": 0,
+        "endLine": 151,
+        "endChar": 51
+      },
+      "revId": "7dfb28e9a80772cf56779400b9916f377dfc6360",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
