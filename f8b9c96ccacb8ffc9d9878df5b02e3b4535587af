@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_8c056f7d",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 519,
+      "author": {
+        "id": 8657
+      },
+      "writtenOn": "2015-07-09T19:19:40Z",
+      "side": 1,
+      "message": "Couldn\u0027t this be replaced with\n\n on property:persist.radio.multisim.config\u003ddsds\n    start ril-daemon2\n\n?",
+      "revId": "f8b9c96ccacb8ffc9d9878df5b02e3b4535587af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
