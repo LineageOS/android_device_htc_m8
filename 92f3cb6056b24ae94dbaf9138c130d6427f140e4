@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_20ee6e88",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 614,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-07-13T20:35:47Z",
+      "side": 1,
+      "message": "fiops :P",
+      "range": {
+        "startLine": 614,
+        "startChar": 16,
+        "endLine": 614,
+        "endChar": 21
+      },
+      "revId": "92f3cb6056b24ae94dbaf9138c130d6427f140e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
