@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_15c28386",
+        "filename": "camera/CameraWrapper.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 8657
+      },
+      "writtenOn": "2015-07-16T20:58:48Z",
+      "side": 1,
+      "message": "You can just omit the parameter name, or comment it out.",
+      "revId": "c7508f038f776368501c86068ebf89917b091319",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
