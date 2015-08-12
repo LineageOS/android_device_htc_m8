@@ -16,6 +16,24 @@
       "revId": "89895035d224e3e209a98a9b2e81836e23973c98",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_a5a84877",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-08-12T22:21:06Z",
+      "side": 1,
+      "message": "This won\u0027t work, m8dug is a separate device right now. It also won\u0027t work if you try to support it in this repo, since it would then be identified as m8 as well.",
+      "parentUuid": "7f231b9d_45985469",
+      "revId": "89895035d224e3e209a98a9b2e81836e23973c98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
