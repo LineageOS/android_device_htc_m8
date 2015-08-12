@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f231b9d_45985469",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-08-12T22:18:24Z",
+      "side": 1,
+      "message": "This can be simplified since the *_DISABLED_* is now a no-op\n\nifeq ($(TARGET_DEVICE),m8dug)\nAUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS :\u003d true\nAUDIO_FEATURE_HTC_DUAL_SIM :\u003d true\nendif",
+      "revId": "89895035d224e3e209a98a9b2e81836e23973c98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
