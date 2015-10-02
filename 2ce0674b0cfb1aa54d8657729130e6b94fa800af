@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f436f4f_292661b9",
+        "filename": "init/init_m8.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2015-10-02T12:13:22Z",
+      "side": 1,
+      "message": "Should it be M8 with capital letter? That is according to stock property, last time I checked.",
+      "range": {
+        "startLine": 39,
+        "startChar": 46,
+        "endLine": 39,
+        "endChar": 47
+      },
+      "revId": "2ce0674b0cfb1aa54d8657729130e6b94fa800af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
