@@ -16,6 +16,24 @@
       "revId": "20f4035d4e8a10c56f676005b14f687bf33c25a6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f2577a7_00380bd1",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2015-10-25T04:06:28Z",
+      "side": 0,
+      "message": "No big deal. Just wanted to reorganize alphabetically, but I realized RIL is above, here in m8 device tree.",
+      "parentUuid": "5f2577a7_85676d26",
+      "revId": "20f4035d4e8a10c56f676005b14f687bf33c25a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
