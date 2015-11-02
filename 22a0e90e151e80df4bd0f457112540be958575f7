@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f3283f1_52c03451",
+        "filename": "mkbootimg.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-11-02T00:33:40Z",
+      "side": 0,
+      "message": "we\u0027re going to need to be able to specify this tag...",
+      "range": {
+        "startLine": 17,
+        "startChar": 19,
+        "endLine": 17,
+        "endChar": 26
+      },
+      "revId": "22a0e90e151e80df4bd0f457112540be958575f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
