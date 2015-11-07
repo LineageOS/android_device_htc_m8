@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_69da12ea",
+        "filename": "device-proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2015-11-07T20:39:56Z",
+      "side": 1,
+      "message": "Wouldn\u0027t you prefer to create a GPS section for these blobs?",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 29
+      },
+      "revId": "c3c185ccfd0d1669feedc8733b7a7210b0a011ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
