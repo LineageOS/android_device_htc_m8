@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_fb9493ea",
+        "filename": "init/init_m8.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-08-26T12:57:13Z",
+      "side": 1,
+      "message": "Is this needed?",
+      "range": {
+        "startLine": 136,
+        "startChar": 79,
+        "endLine": 136,
+        "endChar": 86
+      },
+      "revId": "ead1c2823df90556e5be922666c10d911560e08e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_1b9acf13",
+        "filename": "init/init_m8.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-08-26T12:57:13Z",
+      "side": 1,
+      "message": "Is this needed?",
+      "range": {
+        "startLine": 136,
+        "startChar": 94,
+        "endLine": 136,
+        "endChar": 102
+      },
+      "revId": "ead1c2823df90556e5be922666c10d911560e08e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
