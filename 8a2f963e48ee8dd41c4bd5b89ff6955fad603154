@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_a52eda40",
+        "filename": "device-proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-09-06T19:24:50Z",
+      "side": 1,
+      "message": "Still needs to be a make target, otherwise build fails:\n\n\u003e  ninja: error: \u0027/home/bgcngm/android/cm/out/target/product/m8d/obj/SHARED_LIBRARIES/libril_intermediates/export_includes\u0027, needed by \u0027/home/bgcngm/android/cm/out/target/product/m8d/obj/SHARED_LIBRARIES/libreference-ril_intermediates/import_includes\u0027, missing and no known rule to make it",
+      "range": {
+        "startLine": 116,
+        "startChar": 0,
+        "endLine": 116,
+        "endChar": 13
+      },
+      "revId": "8a2f963e48ee8dd41c4bd5b89ff6955fad603154",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
