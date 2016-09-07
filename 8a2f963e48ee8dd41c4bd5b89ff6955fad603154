@@ -22,6 +22,30 @@
       "revId": "8a2f963e48ee8dd41c4bd5b89ff6955fad603154",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_00d6bcf2",
+        "filename": "device-proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2016-09-07T10:04:57Z",
+      "side": 1,
+      "message": "Oh, is that what the \u0027-\u0027 does with the new stuff? I didn\u0027t realize that. In older scripts and stuff a hyphen typically denoted a file that would cause the extract_files to continue if it failed to pull (so I thought this was added in error)",
+      "parentUuid": "1fa4df85_a52eda40",
+      "range": {
+        "startLine": 116,
+        "startChar": 0,
+        "endLine": 116,
+        "endChar": 13
+      },
+      "revId": "8a2f963e48ee8dd41c4bd5b89ff6955fad603154",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
