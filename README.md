@@ -20,13 +20,14 @@
 
 ## Device Picture
 
-![HTC One M8](http://wiki.cyanogenmod.org/images/thumb/5/55/M8.png/292px-M8.png "HTC One M8")
+![HTC One M8](http://i.imgur.com/zIRfcMC.png "HTC One M8")
 
 ## Copyright
 
 ```
 #
 # Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

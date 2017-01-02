@@ -41,7 +41,7 @@
 TARGET_OTA_ASSERT_DEVICE := htc_m8,htc_m8whl,htc_m8wl,m8,m8wl,m8wlv,m8vzw,m8whl,m8spr
 
 # Kernel
-TARGET_KERNEL_CONFIG := cm_m8_defconfig
+TARGET_KERNEL_CONFIG := lineageos_m8_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/m8/bluetooth
