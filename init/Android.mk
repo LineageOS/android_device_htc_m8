@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
+#               2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,5 +23,7 @@ LOCAL_C_INCLUDES := system/core/init
 LOCAL_CFLAGS := -Wall -DANDROID_TARGET=\"$(TARGET_BOARD_PLATFORM)\"
 LOCAL_SRC_FILES := init_m8.cpp
 LOCAL_MODULE := libinit_m8
+
+LOCAL_STATIC_LIBRARIES := libbase
 
 include $(BUILD_STATIC_LIBRARY)
