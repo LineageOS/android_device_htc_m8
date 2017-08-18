@@ -93,6 +93,7 @@ void vendor_load_properties()
         property_override("ro.build.description", "6.21.605.3 CL708002 release-keys");
         property_override("ro.product.device", "htc_m8wl");
         property_override("ro.build.product", "htc_m8wl");
+        property_override("ro.com.google.clientidbase", "android-verizon");
         property_set("ro.ril.vzw.feature", "1");
         property_set("ro.ril.oem.ecclist", "911,*911,#911");
         property_set("ro.ril.enable.a52", "0");
