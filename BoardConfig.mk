@@ -47,6 +47,9 @@ TARGET_KERNEL_CONFIG := m8_defconfig
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/m8/bluetooth
 
+# HIDL
+DEVICE_MANIFEST_FILE := device/htc/m8/manifest.xml
+
 # RIL
 BOARD_RIL_CLASS := ../../../device/htc/m8/ril
 TARGET_NEEDS_GCC_LIBC := true
