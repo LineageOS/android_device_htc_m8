@@ -52,8 +52,6 @@ DEVICE_MANIFEST_FILE := device/htc/m8/manifest.xml
 
 # RIL
 BOARD_RIL_CLASS := ../../../device/htc/m8/ril
-TARGET_NEEDS_GCC_LIBC := true
-TARGET_NEEDS_GCC_LIBRIL := true
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1073741824
