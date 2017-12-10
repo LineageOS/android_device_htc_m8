@@ -32,12 +32,13 @@
 #include <sys/_system_properties.h>
 
 #include <android-base/properties.h>
+#include <android-base/logging.h>
 
 #include "property_service.h"
 #include "vendor_init.h"
-#include "log.h"
 
 using android::base::GetProperty;
+using android::init::property_set;
 
 void property_override(char const prop[], char const value[])
 {
