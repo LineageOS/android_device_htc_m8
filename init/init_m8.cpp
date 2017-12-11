@@ -138,7 +138,6 @@ void vendor_load_properties()
         property_set("ro.cdma.home.operator.alpha", "Sprint");
         property_set("gsm.sim.operator.alpha", "Sprint");
         property_set("gsm.operator.alpha", "310120");
-        property_set("ro.telephony.ril_class", "M8SprRIL");
     } else {
         /* m8 */
         common_properties();
