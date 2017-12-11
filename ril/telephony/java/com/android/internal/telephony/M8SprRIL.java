@@ -18,6 +18,7 @@ package com.android.internal.telephony;
 
 import android.content.Context;
 import android.os.Parcel;
+
 import com.android.internal.telephony.RIL;
 import com.android.internal.telephony.uicc.IccCardApplicationStatus;
 import com.android.internal.telephony.uicc.IccCardStatus;
@@ -28,6 +29,7 @@ import com.android.internal.telephony.uicc.IccCardStatus;
  * {@hide}
  */
 public class M8SprRIL extends RIL {
+    private boolean mIsGsm;
 
     public M8SprRIL(Context context, int networkMode, int cdmaSubscription) {
         super(context, networkMode, cdmaSubscription, null);
@@ -70,8 +72,8 @@ public class M8SprRIL extends RIL {
             appStatus.pin2           = appStatus.PinStateFromRILInt(p.readInt());
             cardStatus.mApplications[i] = appStatus;
         }
-
-        if (appStatus != null && numApplications == 1
+        // For Sprint LTE only SIM SIMGLW206R
+        if (appStatus != null && numApplications == 1 && !mIsGsm
                 && appStatus.app_type == appStatus.AppTypeFromRILInt(2)) {
             cardStatus.mApplications = new IccCardApplicationStatus[numApplications+2];
             cardStatus.mGsmUmtsSubscriptionAppIndex = 0;
@@ -100,5 +102,11 @@ public class M8SprRIL extends RIL {
             cardStatus.mApplications[cardStatus.mImsSubscriptionAppIndex] = appStatus3;
         }
         return cardStatus;
+    }
+
+    @Override
+    public void setPhoneType(int phoneType) {
+        super.setPhoneType(phoneType);
+        mIsGsm = (phoneType != RILConstants.CDMA_PHONE);
     }
 }
