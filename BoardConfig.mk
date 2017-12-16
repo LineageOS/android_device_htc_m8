@@ -49,6 +49,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/m8/bluetooth
 
 # HIDL
 DEVICE_MANIFEST_FILE := device/htc/m8/manifest.xml
+DEVICE_MATRIX_FILE := device/htc/m8/compatibility_matrix.xml
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1073741824
