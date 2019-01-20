@@ -56,7 +56,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13153337344
 
 # Vendor Init
 TARGET_INIT_VENDOR_LIB := libinit_m8
-TARGET_RECOVERY_DEVICE_MODULES := libinit_m8
+TARGET_RECOVERY_DEVICE_MODULES := $(PLATFORM_PATH)/init
 
 # Inherit from the proprietary version
 -include vendor/htc/m8/BoardConfigVendor.mk
