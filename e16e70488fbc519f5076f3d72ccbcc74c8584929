@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "203fa250_42f6e9df",
+        "filename": "device.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-07T06:24:09Z",
+      "side": 1,
+      "message": "suppose this could go in m8-common?",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 12
+      },
+      "revId": "e16e70488fbc519f5076f3d72ccbcc74c8584929",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
