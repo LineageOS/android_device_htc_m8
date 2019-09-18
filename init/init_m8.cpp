@@ -84,13 +84,8 @@ void gsm_properties(char const default_network[])
 
 void vendor_load_properties()
 {
-    std::string platform;
     std::string bootmid;
     std::string device;
-
-    platform = GetProperty("ro.board.platform", "");
-    if (platform != ANDROID_TARGET)
-        return;
 
     bootmid = GetProperty("ro.boot.mid", "");
     if (bootmid == "0P6B20000") {
