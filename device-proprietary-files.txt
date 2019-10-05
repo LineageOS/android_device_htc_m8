@@ -1,34 +1,10 @@
 # Device-specific proprietary files
 
 # RIL - GSM variant - pinned to HTC package 6.12.401.4 version
-blobs/gsm/bin/netmgrd:vendor/blobs/gsm/bin/netmgrd|691aba6f3f12d4343942ce4fe94e11855f4c5dd7
-blobs/gsm/bin/qmuxd:vendor/blobs/gsm/bin/qmuxd|f503cce81330c5a13c2f5a195ee73efa0516acb0
-blobs/gsm/lib/libmdmdetect.so:vendor/blobs/gsm/lib/libmdmdetect.so|6cd17750b5b1ce764323b9789891215b88e75310
-blobs/gsm/vendor/lib/libcneapiclient.so:vendor/blobs/gsm/lib/libcneapiclient.so|7e0460cf5fdd079d384836d581117ba25bd882db
-blobs/gsm/vendor/lib/libconfigdb.so:vendor/blobs/gsm/lib/libconfigdb.so|a46a022878d56850716f4e2f7b34cf25e1f42ea3
-blobs/gsm/vendor/lib/libnetmgr.so:vendor/blobs/gsm/lib/libnetmgr.so|778e3550756b7acbbc3b529d487e2554973e1032
-blobs/gsm/vendor/lib/libperipheral_client.so:vendor/blobs/gsm/lib/libperipheral_client.so|dd9a435495de6325b5f20d47560e54a6f9155e0f
-blobs/gsm/vendor/lib/libril-qc-qmi-1.so:vendor/blobs/gsm/lib/libril-qc-qmi-1.so|1409aedae1ad0dc88238340376eaf0deae82730b
-blobs/gsm/vendor/lib/libril-qcril-hook-oem.so:vendor/blobs/gsm/lib/libril-qcril-hook-oem.so|af8470e26db0e72810f8e6f72752270e7ab2ff54
+vendor/lib/libril-qc-qmi-1.so|1409aedae1ad0dc88238340376eaf0deae82730b
 
 # RIL - SPR variant - pinned to HTC package HTC package 6.20.651.3 version
-blobs/spr/bin/netmgrd:vendor/blobs/spr/bin/netmgrd|76e1a7538affdbe927f82d0d398b1dabb356a9c1
-blobs/spr/bin/qmuxd:vendor/blobs/spr/bin/qmuxd|2e4414a059be3c43cc227576151136acab175981
-blobs/spr/lib/libmdmdetect.so:vendor/blobs/spr/lib/libmdmdetect.so|d480ec5f65426f3f298b1cbd0d310059364b8e5e
-blobs/spr/vendor/lib/libcneapiclient.so:vendor/blobs/spr/lib/libcneapiclient.so|7e0460cf5fdd079d384836d581117ba25bd882db
-blobs/spr/vendor/lib/libconfigdb.so:vendor/blobs/spr/lib/libconfigdb.so|3ed895781367156e9d75411ac0380ce305e7ea3a
-blobs/spr/vendor/lib/libnetmgr.so:vendor/blobs/spr/lib/libnetmgr.so|9d79fecb8d20892faeb4a097c71a263f44d4f749
-blobs/spr/vendor/lib/libperipheral_client.so:vendor/blobs/spr/lib/libperipheral_client.so|106acbf5b0a7e85dae126f5c9eb591bc8fde9be1
-blobs/spr/vendor/lib/libril-qc-qmi-1.so:vendor/blobs/spr/lib/libril-qc-qmi-1.so|a3d57bd51927aef77ba4d0cf1c866323a52c0dd1
-blobs/spr/vendor/lib/libril-qcril-hook-oem.so:vendor/blobs/spr/lib/libril-qcril-hook-oem.so|396e2b03ce5612dc7ee9e1d106ccf64b452eb6bf
+vendor/lib/libril_spr-qc-qmi-1.so|a3d57bd51927aef77ba4d0cf1c866323a52c0dd1
 
 # RIL - VZW variant - pinned to HTC package HTC package 6.21.605.3 version
-blobs/vzw/bin/netmgrd:vendor/blobs/vzw/bin/netmgrd|78c267c0af90e44c7fb296d0e442f12b09f39c3e
-blobs/vzw/bin/qmuxd:vendor/blobs/vzw/bin/qmuxd|78d4b62874ad769f05ce83528cd35cec472abe0d
-blobs/vzw/lib/libmdmdetect.so:vendor/blobs/vzw/lib/libmdmdetect.so|9a0bd7715817f4b2e7bfa9c0176fa8cca8ff7c18
-blobs/vzw/vendor/lib/libcneapiclient.so:vendor/blobs/vzw/lib/libcneapiclient.so|7e0460cf5fdd079d384836d581117ba25bd882db
-blobs/vzw/vendor/lib/libconfigdb.so:vendor/blobs/vzw/lib/libconfigdb.so|c63d81e2f64c34b548fda3cffdb9dd5944c36d62
-blobs/vzw/vendor/lib/libnetmgr.so:vendor/blobs/vzw/lib/libnetmgr.so|abacf1b8fca5f17e5c2c3f0a592a40b39538efdb
-blobs/vzw/vendor/lib/libperipheral_client.so:vendor/blobs/vzw/lib/libperipheral_client.so|2c2f072c258b0051df712a646e4afa58cac9186f
-blobs/vzw/vendor/lib/libril-qc-qmi-1.so:vendor/blobs/vzw/lib/libril-qc-qmi-1.so|3b055f7ea7246adbbfdbcd5d6389fbc4fd8dd2c2
-blobs/vzw/vendor/lib/libril-qcril-hook-oem.so:vendor/blobs/vzw/lib/libril-qcril-hook-oem.so|a7edd83854360cac13d4fac12ba4bebc6525b2d1
+vendor/lib/libril_vzw-qc-qmi-1.so|3b055f7ea7246adbbfdbcd5d6389fbc4fd8dd2c2
