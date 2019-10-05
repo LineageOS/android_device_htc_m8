@@ -121,6 +121,7 @@ void vendor_load_properties()
         property_set("ro.ril.gsm.to.lte.blind.redir", "0");
         property_set("ro.config.svlte1x", "true");
         property_set("ro.telephony.get_imsi_from_sim", "true");
+        property_override("rild.libpath", "/vendor/lib/libril_vzw-qc-qmi-1.so");
     } else if (bootmid == "0P6B70000") {
         /* m8spr (m8whl) */
         common_properties();
@@ -139,6 +140,7 @@ void vendor_load_properties()
         property_set("ro.cdma.home.operator.alpha", "Sprint");
         property_set("gsm.sim.operator.alpha", "Sprint");
         property_set("gsm.operator.alpha", "310120");
+        property_override("rild.libpath", "/vendor/lib/libril_spr-qc-qmi-1.so");
     } else {
         /* m8 */
         common_properties();
