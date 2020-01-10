@@ -27,7 +27,8 @@
    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <stdlib.h>
+#include <vector>
+
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
 
@@ -40,21 +41,23 @@
 using android::base::GetProperty;
 using android::init::property_set;
 
-void property_override(char const prop[], char const value[])
+std::vector<std::string> ro_props_default_source_order = {
+    "",
+    "odm.",
+    "product.",
+    "system.",
+    "vendor.",
+};
+
+void property_override(char const prop[], char const value[], bool add = true)
 {
     prop_info *pi;
 
     pi = (prop_info*) __system_property_find(prop);
     if (pi)
         __system_property_update(pi, value, strlen(value));
-    else
+    else if (add)
         __system_property_add(prop, strlen(prop), value, strlen(value));
-}
-
-void property_override_dual(char const system_prop[], char const vendor_prop[], char const value[])
-{
-    property_override(system_prop, value);
-    property_override(vendor_prop, value);
 }
 
 void common_properties()
@@ -87,15 +90,24 @@ void vendor_load_properties()
     std::string bootmid;
     std::string device;
 
+    const auto set_ro_build_prop = [](const std::string &source,
+            const std::string &prop, const std::string &value) {
+        auto prop_name = "ro." + source + "build." + prop;
+        property_override(prop_name.c_str(), value.c_str(), false);
+    };
+
+    const auto set_ro_product_prop = [](const std::string &source,
+            const std::string &prop, const std::string &value) {
+        auto prop_name = "ro.product." + source + prop;
+        property_override(prop_name.c_str(), value.c_str(), false);
+    };
+
     bootmid = GetProperty("ro.boot.mid", "");
     if (bootmid == "0P6B20000") {
         /* m8vzw (m8wl) */
         common_properties();
         cdma_properties("0", "10");
-        property_override_dual("ro.product.model", "ro.vendor.product.model", "m8wl");
-        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "htc/HTCOneM8vzw/htc_m8wl:6.0/MRA58K/708002.3:user/release-keys");
         property_override("ro.build.description", "6.21.605.3 CL708002 release-keys");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "htc_m8wl");
         property_override("ro.build.product", "htc_m8wl");
         property_override("ro.com.google.clientidbase", "android-verizon");
         property_set("ro.ril.vzw.feature", "1");
@@ -122,14 +134,16 @@ void vendor_load_properties()
         property_set("ro.config.svlte1x", "true");
         property_set("ro.telephony.get_imsi_from_sim", "true");
         property_override("rild.libpath", "/vendor/lib/libril_vzw-qc-qmi-1.so");
+        for (const auto &source : ro_props_default_source_order) {
+            set_ro_build_prop(source, "fingerprint", "htc/HTCOneM8vzw/htc_m8wl:6.0/MRA58K/708002.3:user/release-keys");
+            set_ro_product_prop(source, "device", "htc_m8wl");
+            set_ro_product_prop(source, "model", "m8wl");
+        }
     } else if (bootmid == "0P6B70000") {
         /* m8spr (m8whl) */
         common_properties();
         cdma_properties("1", "8");
-        property_override_dual("ro.product.model", "ro.vendor.product.model", "m8whl");
-        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "htc/sprint_wwe/htc_m8whl:6.0/MRA58K/682910.3:user/release-keys");
         property_override("ro.build.description", "6.20.651.3 CL682910 release-keys");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "htc_m8whl");
         property_override("ro.build.product", "htc_m8whl");
         property_set("ro.ril.disable.fd.plmn.prefix", "23402,23410,23411,23420,23594,27202,27205");
         property_set("ro.ril.oem.ecclist", "911");
@@ -141,15 +155,22 @@ void vendor_load_properties()
         property_set("gsm.sim.operator.alpha", "Sprint");
         property_set("gsm.operator.alpha", "310120");
         property_override("rild.libpath", "/vendor/lib/libril_spr-qc-qmi-1.so");
+        for (const auto &source : ro_props_default_source_order) {
+            set_ro_build_prop(source, "fingerprint", "htc/sprint_wwe/htc_m8whl:6.0/MRA58K/682910.3:user/release-keys");
+            set_ro_product_prop(source, "device", "htc_m8whl");
+            set_ro_product_prop(source, "model", "m8whl");
+        }
     } else {
         /* m8 */
         common_properties();
         gsm_properties("9");
-        property_override_dual("ro.product.model", "ro.vendor.product.model", "m8");
-        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "htc/m8_google/htc_m8:6.0/MRA58K.H6/648564:user/release-keys");
         property_override("ro.build.description", "5.07.1700.6 CL648564 release-keys");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "htc_m8");
         property_override("ro.build.product", "htc_m8");
+        for (const auto &source : ro_props_default_source_order) {
+            set_ro_build_prop(source, "fingerprint", "htc/m8_google/htc_m8:6.0/MRA58K.H6/648564:user/release-keys");
+            set_ro_product_prop(source, "device", "htc_m8");
+            set_ro_product_prop(source, "model", "m8");
+        }
     }
 
     device = GetProperty("ro.product.device", "");
