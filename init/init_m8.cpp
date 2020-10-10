@@ -35,11 +35,9 @@
 #include <android-base/properties.h>
 #include <android-base/logging.h>
 
-#include "property_service.h"
 #include "vendor_init.h"
 
 using android::base::GetProperty;
-using android::init::property_set;
 
 std::vector<std::string> ro_props_default_source_order = {
     "",
@@ -62,27 +60,27 @@ void property_override(char const prop[], char const value[], bool add = true)
 
 void common_properties()
 {
-    property_set("rild.libargs", "-d /dev/smd0");
-    property_set("ro.ril.hsdpa.category", "14");
-    property_set("ro.ril.hsxpa", "4");
-    property_set("ro.ril.disable.cpc", "1");
+    property_override("rild.libargs", "-d /dev/smd0");
+    property_override("ro.ril.hsdpa.category", "14");
+    property_override("ro.ril.hsxpa", "4");
+    property_override("ro.ril.disable.cpc", "1");
 }
 
 void cdma_properties(char const default_cdma_sub[], char const default_network[])
 {
-    property_set("ro.telephony.default_cdma_sub", default_cdma_sub);
-    property_set("ro.telephony.default_network", default_network);
-    property_set("telephony.lteOnCdmaDevice", "1");
-    property_set("ro.ril.enable.sdr", "0");
-    property_set("persist.radio.snapshot_enabled", "1");
-    property_set("persist.radio.snapshot_timer", "22");
+    property_override("ro.telephony.default_cdma_sub", default_cdma_sub);
+    property_override("ro.telephony.default_network", default_network);
+    property_override("telephony.lteOnCdmaDevice", "1");
+    property_override("ro.ril.enable.sdr", "0");
+    property_override("persist.radio.snapshot_enabled", "1");
+    property_override("persist.radio.snapshot_timer", "22");
 }
 
 void gsm_properties(char const default_network[])
 {
-    property_set("ro.telephony.default_network", default_network);
-    property_set("telephony.lteOnGsmDevice", "1");
-    property_set("ro.ril.radio.svn", "1");
+    property_override("ro.telephony.default_network", default_network);
+    property_override("telephony.lteOnGsmDevice", "1");
+    property_override("ro.ril.radio.svn", "1");
 }
 
 void vendor_load_properties()
@@ -110,29 +108,29 @@ void vendor_load_properties()
         property_override("ro.build.description", "6.21.605.3 CL708002 release-keys");
         property_override("ro.build.product", "htc_m8wl");
         property_override("ro.com.google.clientidbase", "android-verizon");
-        property_set("ro.ril.vzw.feature", "1");
-        property_set("ro.ril.oem.ecclist", "911,*911,#911");
-        property_set("ro.ril.enable.a52", "0");
-        property_set("ro.ril.enable.a53", "1");
-        property_set("ro.ril.enable.dtm", "0");
-        property_set("ro.ril.enable.gea3", "1");
-        property_set("ro.ril.enable.r8fd", "1");
-        property_set("ro.ril.disable.fd.plmn.prefix", "23402,23410,23411,23420");
-        property_set("ro.ril.fast.dormancy.cdma.rule", "0");
-        property_set("ro.ril.gprsclass", "12");
-        property_set("ro.ril.att.feature", "0");
-        property_set("ro.ril.enable.managed.roaming", "1");
-        property_set("ro.ril.oem.show.act", "0");
-        property_set("ro.ril.pdpnumber.policy.roaming", "3");
-        property_set("ro.ril.set.mtusize", "1428");
-        property_set("ro.ril.air.enabled", "0");
-        property_set("ro.ril.wp.feature", "1");
-        property_set("ro.cdma.data_retry_config", "max_retries=infinite,0,0,60000,120000,480000,900000");
-        property_set("ro.gsm.data_retry_config", "max_retries=infinite,0,0,60000,120000,480000,900000");
-        property_set("ro.gsm.2nd_data_retry_config", "max_retries=infinite,0,0,60000,120000,480000,900000");
-        property_set("ro.ril.gsm.to.lte.blind.redir", "0");
-        property_set("ro.config.svlte1x", "true");
-        property_set("ro.telephony.get_imsi_from_sim", "true");
+        property_override("ro.ril.vzw.feature", "1");
+        property_override("ro.ril.oem.ecclist", "911,*911,#911");
+        property_override("ro.ril.enable.a52", "0");
+        property_override("ro.ril.enable.a53", "1");
+        property_override("ro.ril.enable.dtm", "0");
+        property_override("ro.ril.enable.gea3", "1");
+        property_override("ro.ril.enable.r8fd", "1");
+        property_override("ro.ril.disable.fd.plmn.prefix", "23402,23410,23411,23420");
+        property_override("ro.ril.fast.dormancy.cdma.rule", "0");
+        property_override("ro.ril.gprsclass", "12");
+        property_override("ro.ril.att.feature", "0");
+        property_override("ro.ril.enable.managed.roaming", "1");
+        property_override("ro.ril.oem.show.act", "0");
+        property_override("ro.ril.pdpnumber.policy.roaming", "3");
+        property_override("ro.ril.set.mtusize", "1428");
+        property_override("ro.ril.air.enabled", "0");
+        property_override("ro.ril.wp.feature", "1");
+        property_override("ro.cdma.data_retry_config", "max_retries=infinite,0,0,60000,120000,480000,900000");
+        property_override("ro.gsm.data_retry_config", "max_retries=infinite,0,0,60000,120000,480000,900000");
+        property_override("ro.gsm.2nd_data_retry_config", "max_retries=infinite,0,0,60000,120000,480000,900000");
+        property_override("ro.ril.gsm.to.lte.blind.redir", "0");
+        property_override("ro.config.svlte1x", "true");
+        property_override("ro.telephony.get_imsi_from_sim", "true");
         property_override("rild.libpath", "/vendor/lib/libril_vzw-qc-qmi-1.so");
         for (const auto &source : ro_props_default_source_order) {
             set_ro_build_prop(source, "fingerprint", "htc/HTCOneM8vzw/htc_m8wl:6.0/MRA58K/708002.3:user/release-keys");
@@ -145,15 +143,15 @@ void vendor_load_properties()
         cdma_properties("1", "8");
         property_override("ro.build.description", "6.20.651.3 CL682910 release-keys");
         property_override("ro.build.product", "htc_m8whl");
-        property_set("ro.ril.disable.fd.plmn.prefix", "23402,23410,23411,23420,23594,27202,27205");
-        property_set("ro.ril.oem.ecclist", "911");
-        property_set("ro.ril.set.mtusize", "1422");
-        property_set("ro.cdma.home.operator.numeric", "310120");
-        property_set("gsm.sim.operator.numeric", "310120");
-        property_set("gsm.operator.numeric", "310120");
-        property_set("ro.cdma.home.operator.alpha", "Sprint");
-        property_set("gsm.sim.operator.alpha", "Sprint");
-        property_set("gsm.operator.alpha", "310120");
+        property_override("ro.ril.disable.fd.plmn.prefix", "23402,23410,23411,23420,23594,27202,27205");
+        property_override("ro.ril.oem.ecclist", "911");
+        property_override("ro.ril.set.mtusize", "1422");
+        property_override("ro.cdma.home.operator.numeric", "310120");
+        property_override("gsm.sim.operator.numeric", "310120");
+        property_override("gsm.operator.numeric", "310120");
+        property_override("ro.cdma.home.operator.alpha", "Sprint");
+        property_override("gsm.sim.operator.alpha", "Sprint");
+        property_override("gsm.operator.alpha", "310120");
         property_override("rild.libpath", "/vendor/lib/libril_spr-qc-qmi-1.so");
         for (const auto &source : ro_props_default_source_order) {
             set_ro_build_prop(source, "fingerprint", "htc/sprint_wwe/htc_m8whl:6.0/MRA58K/682910.3:user/release-keys");
