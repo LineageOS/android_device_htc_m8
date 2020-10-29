@@ -17,6 +17,10 @@
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/m8/overlay
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/htc/m8/m8-vendor.mk)
 
