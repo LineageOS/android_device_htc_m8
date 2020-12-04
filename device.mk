@@ -17,10 +17,6 @@
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/m8/overlay
 
-# Recorder
-PRODUCT_PACKAGES += \
-    Recorder
-
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/htc/m8/m8-vendor.mk)
 
