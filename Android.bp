@@ -1,0 +1,5 @@
+soong_namespace {
+    imports: [
+        "device/htc/msm8974-common",
+    ],
+}
