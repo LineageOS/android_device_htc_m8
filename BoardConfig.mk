@@ -59,4 +59,4 @@ TARGET_INIT_VENDOR_LIB := //device/htc/m8:libinit_m8
 TARGET_RECOVERY_DEVICE_MODULES += libinit_m8
 
 # Inherit from the proprietary version
--include vendor/htc/m8/BoardConfigVendor.mk
+include vendor/htc/m8/BoardConfigVendor.mk
