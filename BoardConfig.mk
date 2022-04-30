@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2015 The CyanogenMod Project
-#               2017,2020-2021 The LineageOS Project
+#               2017,2020-2022 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@
 # against the traditional rules of inheritance).
 
 # Inherit from common m8-common
--include device/htc/m8-common/BoardConfigCommon.mk
+include device/htc/m8-common/BoardConfigCommon.mk
 
 # Model Ids
 # 0P6B10000 - International
